@@ -12,4 +12,4 @@ Build Command:
 
 Usage: 
 
-*   dll_injector.dll <target_exe_path> <target_dll_path>
+*   dll_injector.exe <target_exe_path> <target_dll_path>
