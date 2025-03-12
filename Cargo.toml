@@ -1,0 +1,10 @@
+[package]
+name = "dll_injector"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3", features = ["winuser", "processthreadsapi", "memoryapi", "libloaderapi", "synchapi", "handleapi", "winbase", "errhandlingapi"] }
+libc = "0.2"
+log = "0.4"
+simplelog = "0.8"
